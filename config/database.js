@@ -14,5 +14,5 @@ const connectDB = async () => {
     process.exit(1)
   }
 }
-
-module.exports = connectDB
+//spits out the function so we can use somewhere else
+module.exports = connectDB 
